@@ -1,3 +1,3 @@
 function onClick() {
-    alert("hi")
+    alert("!! error !! THIS PAGE CANNOT SAY")
 }
