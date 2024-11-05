@@ -1,4 +1,4 @@
 function onClick(inputName) {
-    document.getElementById("output").innerHTML = "Now I AM In Possible Control"
-    alert("Well, Well, Well " + inputName + ' What do you know?')
+    document.getElementById("output").innerHTML = "Welcome" + inputName + 'How are you doing?'
+    alert("Well, Well, Well. What do you know? Its " + inputName + ' What do you know?')
 }
