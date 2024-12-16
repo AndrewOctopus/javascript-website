@@ -2,9 +2,9 @@ function onClick(inputName) {
   $.get(
     "https://pokeapi.co/api/v2/pokemon/" + inputName,
     function (data, status) {
-      document.getElementById("output").innerHTML = JSON.stringify(data);
+      // document.getElementById("output").innerHTML = JSON.stringify(data);
       console.log(data);
-      console.log(status);
+      document.getElementById("name").innerHTML = data.name
       console.log(data.sprites.other["official-artwork"].front_default);
     }
   );
